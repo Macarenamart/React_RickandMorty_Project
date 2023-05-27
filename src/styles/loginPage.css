@@ -1,0 +1,47 @@
+.loginPage {
+    background-color: #48ad64; /* Verde azulado de Rick and Morty */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 9px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+  }
+  
+  .loginPage-title {
+    color: #23414f; 
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .accept-button {
+    background-color: #008080; 
+    color: #FFFFFF; 
+  }
+  .delete-button {
+    background-color: #FB6467FF; 
+    color: #FFFFFF; 
+  }
+  

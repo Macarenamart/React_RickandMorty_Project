@@ -1,0 +1,30 @@
+
+.navbar-title {
+    font-family: 'Arial', sans-serif;
+    font-size: 70px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-left: 30px;
+  }
+
+
+.navbar {
+    background-color: #2F9331;
+    color: #FFFFFF;
+    padding: 40px;
+    margin-bottom: 40px;
+  }
+  
+  .navbar a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 38px;
+  }
+  
+  .navbar a:hover {
+    color: #24325FFF;
+  }
+  
+ 
+  
