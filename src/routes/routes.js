@@ -14,7 +14,7 @@ router.post('/login', async (req, res) => {
       return res.status(401).json({ message: 'Datos de acceso incorrectos' });
     }
 
-    // Autenticación exitosa
+    // Autenticación correcta
     return res.status(200).json({ message: 'Inicio de sesión correcto' });
   } catch (error) {
     console.error(error);

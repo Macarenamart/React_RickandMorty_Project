@@ -5,6 +5,7 @@ import Navbar from "./Navbar";
 import Characters from "./Characters";
 import Pages from "./Pages";
 
+
 //Llamo a la Api con un fetch
 //
 
@@ -89,5 +90,23 @@ useEffect (() => {
   
   );
 }
+
+
+/*const express = require('express');
+const app = express();
+
+// Configurar el servidor para aceptar solicitudes JSON
+app.use(express.json());
+
+// Importar y utilizar las rutas de Routes.js
+const routes = require('../routes/Routes');
+app.use('/', Routes);
+
+// Iniciar el servidor en el puerto 
+const port = 3000; 
+app.listen(port, () => {
+  console.log(`Servidor en funcionamiento en el puerto ${port}`);
+});*/
+
 
 export default App;
